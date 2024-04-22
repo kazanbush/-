@@ -1,0 +1,67 @@
+/*базовые стили*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    /*наследовать цвет текста от родителя*/
+}
+
+/* остальные стили*/
+
+.wrapper {
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1362px;
+    padding: 0px 5px;
+    background-color: #00B43D;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 72px;
+    background-color: orange;
+}
+
+.hero {
+    height: 100vh;
+    /* background-image: url(../img/Travel_Time.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+
+}
